@@ -94,12 +94,37 @@ function theme_options_do_page() {
 				 * A sample text input option
 				 */
 				?>
-				<tr valign="top"><th scope="row"><?php _e( 'Some text', 'sampletheme' ); ?></th>
+				<tr valign="top"><th scope="row"><?php _e( 'Adress', 'sampletheme' ); ?></th>
 					<td>
-						<input id="sample_theme_options[sometext]" class="regular-text" type="text" name="sample_theme_options[sometext]" value="<?php esc_attr_e( $options['sometext'] ); ?>" />
-						<label class="description" for="sample_theme_options[sometext]"><?php _e( 'Sample text input', 'sampletheme' ); ?></label>
+						<input id="sample_theme_options[adress]" class="regular-text" type="text" name="sample_theme_options[adress]" value="<?php esc_attr_e( $options['adress'] ); ?>" />
+
 					</td>
 				</tr>
+				<tr valign="top"><th scope="row"><?php _e( 'Phone number', 'sampletheme' ); ?></th>
+					<td>
+						<input id="sample_theme_options[phonenumber]" class="regular-text" type="text" name="sample_theme_options[phonenumber]" value="<?php esc_attr_e( $options['phonenumber'] ); ?>" />
+
+					</td>
+				</tr>
+				<tr valign="top"><th scope="row"><?php _e( 'Web-site', 'sampletheme' ); ?></th>
+					<td>
+						<input id="sample_theme_options[website]" class="regular-text" type="text" name="sample_theme_options[website]" value="<?php esc_attr_e( $options['website'] ); ?>" />
+
+					</td>
+				</tr>
+				<tr valign="top"><th scope="row"><?php _e( 'Custom e-mail', 'sampletheme' ); ?></th>
+					<td>
+						<input id="sample_theme_options[customemail]" class="regular-text" type="text" name="sample_theme_options[customemail]" value="<?php esc_attr_e( $options['customemail'] ); ?>" />
+
+					</td>
+				</tr>
+				<tr valign="top"><th scope="row"><?php _e( 'Background link', 'sampletheme' ); ?></th>
+					<td>
+						<input id="sample_theme_options[bglink]" class="regular-text" type="text" name="sample_theme_options[bglink]" value="<?php esc_attr_e( $options['bglink'] ); ?>" />
+
+					</td>
+				</tr>
+
 
 				<?php
 				/**

@@ -5,7 +5,7 @@ body {
   min-width: 320px;
   position: relative;
   line-height: 1.6;
-  -webkit-font-smoothing: antialised; }
+  -webkit-font-smoothing: antialiased; }
 
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
@@ -51,7 +51,7 @@ section {
     text-transform: uppercase;
     font-size: 12px;
     position: relative;
-    margin-bottom: 130px;
+    margin-bottom: 80px;
     font-weight: 600; }
     .s_descr_wrap .s_descr::after {
       content: "";
@@ -250,6 +250,8 @@ svg path {
     transition: all 1s ease; }
     .top_wrapper .top_text p {
       margin: 0;
+      display: inline-block;
+      background-color: rgba(0, 0, 0, 0.3);
       text-transform: uppercase;
       -webkit-animation-delay: 1s;
       animation-delay: 1s; }
@@ -261,7 +263,7 @@ svg path {
       text-transform: uppercase;
       font-weight: bold;
       font-size: 2.8em;
-      background-color: rgba(0, 0, 0, 0.1);
+      background-color: rgba(0, 0, 0, 0.3);
       margin-left: 20px;
       margin-right: 20px;
       -webkit-animation-delay: 0.5s;
@@ -289,17 +291,27 @@ svg path {
     display: inline-block;
     border-radius: 50%; }
 
-.s_about p {
+.s_about .biography_first_block p {
   margin-bottom: 25px; }
-.s_about ul,
-.s_about li {
+.s_about .biography_first_block ul,
+.s_about .biography_first_block li {
   margin: 0;
   padding: 0;
-  list-style-type: none; }
-.s_about li {
+  list-style-type: none;  }
+.s_about .biography_first_block li {
   margin-bottom: 10px; }
 .s_about .social_wrap {
   margin-top: 25px; }
+
+.personal_last_block .container .panel-default .panel-heading {
+  border: none;
+  padding: 0;
+}
+.personal_last_block .container .panel-default {
+  border: none;
+}
+
+
 
 .social_wrap li {
   display: inline-block;

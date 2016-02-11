@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                &copy; <?php echo get_bloginfo( 'name' ); ?>
+                &copy; <?php date("Y")?> <?php echo get_bloginfo( 'name' ); ?>
                 <div class="social_wrap">
                     <ul>
 
@@ -39,6 +39,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/libs/waypoints/waypoints.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/libs/animate/animate-css.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/libs/bootstrap/bootstrap.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/common.js"></script>
 
 <?php wp_footer(); ?>
@@ -46,3 +47,4 @@
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
 </html>
+

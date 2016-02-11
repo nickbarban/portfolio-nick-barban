@@ -103,3 +103,7 @@ form .form-group {
 
 .popup_content {
   letter-spacing: 1px; }
+
+.personal_last_block .container .panel-default .panel-heading {
+  color: #FF6347;
+}
